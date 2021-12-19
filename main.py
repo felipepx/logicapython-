@@ -1,20 +1,20 @@
-a = input("Digite a idade da pessoa: ")
+a = input('Digite a idade da pessoa:')
 idade = int (a)
 
 if idade <=1:
-    print ("Recém nascido")
+    print ('Recém nascido')
 elif idade < 13:
-        print ("Criança")
+        print ('Criança')
 elif idade < 18:
-    print ("Adolescente")
+    print ('Adolescente')
 elif idade < 60:
-    print ("Adulto")
+    print ('Adulto')
 elif idade < 80:
-    print ("Idoso")
+    print ('Idoso')
 else:
-    print ("Longevo")
+    print ('Longevo')
 
-print ("Acabou.")
+print ('Acabou.')
 
 input('')
 
